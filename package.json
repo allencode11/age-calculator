@@ -1,6 +1,6 @@
 {
   "name": "age-calc",
-  "homepage": "https://allencode11.github.io/age-calc/",
+  "homepage": "https://allencode11.github.io/age-calculator/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
