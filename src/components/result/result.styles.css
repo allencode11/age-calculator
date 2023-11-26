@@ -1,0 +1,31 @@
+#result {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    line-height: 114px;
+}
+
+.number {
+    color: #854DFF;
+    font-weight: bolder;
+    font-size: 104px;
+    font-style: italic;
+    margin-right: 8px;
+}
+
+.text {
+    color: #151515;
+    font-weight: bolder;
+    font-size: 104px;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 375px) {
+    .number, .text {
+        font-size: 56px;
+        line-height: 62px;
+        letter-spacing: -2px;
+    }
+}
