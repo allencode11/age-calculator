@@ -34,9 +34,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](src/assets/images/image1.png)
-![](src/assets/images/image2.png)
-![](src/assets/images/image3.png)
+![](src/assets/images/desktop-bisect.png)
+![](src/assets/images/desktop-validation-bisect.png)
+![](src/assets/images/mobile-validation-bisect.png)
+![](src/assets/images/desktop-result.png)
+![](src/assets/images/mobile-result.png)
+![](src/assets/images/desktop-validation.png)
 
 ### Links
 
