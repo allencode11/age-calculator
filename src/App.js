@@ -42,12 +42,12 @@ function App() {
       // Calculate days
       const birthDay = birthDate.getDate();
       const currentDay = currentDate.getDate();
-      let dayDifference = currentDay +  new Date(formData.year, formData.month, 0).getDate()
-      - birthDay;
+      let dayDifference = currentDay - birthDay;
 
       if (dayDifference < 0) {
         monthDifference -= 1;
-        dayDifference = currentDay - birthDay;
+        dayDifference = currentDay +  new Date(formData.year, formData.month -1, 0).getDate()
+          - birthDay;
       }
 
       setResultYears(ageInYears);
